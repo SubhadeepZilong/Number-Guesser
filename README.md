@@ -10,7 +10,7 @@ Number Guesser
 - Run the html file "index.html"
 - Enjoy
 ```
-## Iimprovement Notes for future
+## Improvement Notes for future
 
 ```
 - Make a hint button available after every 5th guess
