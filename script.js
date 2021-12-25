@@ -7,7 +7,7 @@ var no_of_guesses = 0;
 var guessed_nums = [];
 
 function play(){
-    var user_guess = Number(document.getElementById("guess").value);
+    var user_guess = document.getElementById("guess").value;
 
     if(user_guess < 1 || user_guess > 1000){
         alert("Please enter a number between 1 and 1000.");
