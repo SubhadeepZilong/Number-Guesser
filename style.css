@@ -7,10 +7,8 @@
 }
 body{
     height: 100vh;
-    background: linear-gradient(
-        to right,
-        #003973,
-        #e5e5be
+    background: #222;    
+    background-image: url('https://source.unsplash.com/random/1600x900/?math');
     );
 }
 .container{
@@ -20,9 +18,10 @@ body{
     transform: translate(-50%,-50%);
     top: 50%;
     left: 50%;
-    background-color: #ffffff;
+    background: #000000d0;
+    color: white;
     padding: 50px 10px;
-    border-radius: 5px;
+    border-radius: 30px;
     display: grid;
     justify-items: center;
     font-family: 'Poppins',sans-serif;
